@@ -5,7 +5,7 @@
 # compatibility.cmake - various necessary compatibility checks
 # note: only include it in memory's top-level CMakeLists.txt
 
-include(CompBase)
+include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/comp/comp_base.cmake)
 
 # dummy library running the required tests
 add_library(_foonathan_memory_comp_runner INTERFACE)
